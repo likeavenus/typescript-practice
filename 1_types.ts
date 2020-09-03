@@ -21,4 +21,19 @@ function sayMyName(name: string): void {
     console.log(name);
 }
 
-sayMyName(contact[0])
+function infinite(): never {
+    while(true) {
+
+    }
+}
+
+// Type
+type Login = string;
+type Password = number;
+type ID = string | number | boolean;
+
+const login: Login = 'admin';
+const pass: Password = 1987;
+const id: ID = 1234;
+
+
